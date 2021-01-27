@@ -1,0 +1,5 @@
+.noDataHeading {
+  display: flex;
+  align-self: center;
+  margin-top: 20px;
+}

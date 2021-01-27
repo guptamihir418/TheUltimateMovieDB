@@ -1,0 +1,20 @@
+THIS IS FOR INTERNAL USE
+
+// stuff done for check in 3
+
+1- added navbar component in components folder in frontend
+2- imported the navbar in routes file
+3- added links to pages in navbar component using link from reach/router
+4- Now the register button on register page navigates to login instead of profile
+5- On registration now email and password are also sent to server so that it can be later used for loggin in
+if a user now tries to go to any page without login he will be redirected to login page
+6- added express.json instead of body parser in index.tsx backend as it is deprecated both works same
+7- added login endpoint in users route file
+8- now in onsubmit of login page we send the request to backend for logggin in with pasword and email and if information was correct the server sends 200 and user gets to profile and if 400 the user stays out at login
+9- added page to edit user's profile
+10- added a put route in the backend to update user information 
+11- added select box on searching movies which contains all options for searching
+12- added a page to view seached movies
+13- added a page for adding users 
+14- added a page for adding new movies and we can search them later   
+

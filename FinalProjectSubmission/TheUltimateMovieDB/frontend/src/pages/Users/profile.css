@@ -1,0 +1,9 @@
+.noDataHeading {
+  display: flex;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.followBtn {
+  margin-top: 8px;
+}

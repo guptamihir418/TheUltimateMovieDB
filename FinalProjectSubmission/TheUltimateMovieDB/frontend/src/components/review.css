@@ -1,0 +1,33 @@
+.commentsTitle {
+  font-size: xx-large;
+  margin: 30px;
+}
+
+.reviewContainer {
+  display: flex !important;
+  /* display: flex; */
+  flex-direction: row;
+  margin-bottom: 30px;
+  /* border: 5px solid black; */
+}
+
+.reviewAuthor {
+  font-size: small;
+}
+
+.reviewContent {
+  margin-left: 10px;
+}
+
+.reviewTime {
+  font-size: x-small;
+}
+
+.addReviewForm {
+  margin-bottom: 15px;
+}
+
+.reviewTextArea textarea {
+  width: 100%;
+  color: black;
+}
